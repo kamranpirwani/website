@@ -1,0 +1,98 @@
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <%=icon('arrow-down')%>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top" alt="Welcome">
+          <%=icon('fa-play-circle-o')%>
+          <span class="light">Welcome</span>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top" alt="Welcome"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#about" alt="About">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#projects" alt="Projects">Projects</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact" alt="Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- Intro Header -->
+  <header class="intro">
+    <div class="intro-background"></div>
+    <div class="intro-table">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="brand-heading content-light">Hello There!</h1>
+            </div>
+            <div class="col-md-8">
+              <p class="intro-text content-light">I am a Mobile Developer<br />living in San Francisco, CA.</p>
+            </div>
+          </div>
+          <div id="intro-next-spacer" class="row">
+          </div>
+          <a id="intro-next-btn" href="#about" alt="About" class="btn btn-circle page-scroll">
+            <%=icon('angle-double-down')%>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="about" class="container content-section">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <img class="img-circular-photo img-responsive" alt="Kamran Pirwani's photo" src=<%=image_url('profile5.png')%>>
+        <ul class="list-inline banner-social-buttons">
+          <li>
+            <a href="https://www.facebook.com/kamran.pirwani" target="_blank" class="btn btn-default btn-lg">
+              <%=icon('facebook-f')%>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/kamranpirwani" target="_blank" class="btn btn-default btn-lg">
+              <%=icon('twitter')%>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/kamran-pirwani-991a0842" target="_blank" class="btn btn-default btn-lg">
+              <%=icon('linkedin')%>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/kamranpirwani" target="_blank" class="btn btn-default btn-lg">
+              <%=icon('github')%>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <h2 class="text-center">About Me</h2>
+        <p>I am a passionate developer aiming to be a jack of all trades.<br>
+          I've been focusing on <strong>iOS</strong> and <strong>Android</strong> App Development for the past several years,
+          and I dabble with Ruby on Rails on the side.
+        </p>
+        <p>My mind is always trying to find the next big thing, and am constantly chasing new technologies and taking on unfamiliar challenges.<br><br>
+          When I'm not coding, I love to try new cooking techniques, am a fitness enthusiast and novice rock climber.
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
